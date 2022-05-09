@@ -16,4 +16,4 @@ Macでpyenv+poetryで環境構築したので共有します。
 14. `git clone https://github.com/iamtatsuki05/pyenv-poetry.git`でディレクトリをインストール
 15. `cd`コマンドでディレクトリに移動する
 16. poetryをインストールする`poetry install`
-17. poetryにライブラリーなどを追加したい場合'poetry add ライブラリー名'
+17. poetryにライブラリーなどを追加したい場合'poetry add {ライブラリー名}'
