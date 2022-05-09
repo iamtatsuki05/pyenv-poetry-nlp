@@ -12,7 +12,8 @@ Macでpyenv+poetryで環境構築したので共有します。
 10. 今回は3.8をインストールする`pyenv install 3.8.0`
 11. グローバルのバージョンを変更する`pyenv global 3.8.0`
 12. ローカルのバージョンを変更する`pyenv local 3.8.0`
-13.
-14.
-15.
-16.
+13. バージョンの変更が適用されているか確認する`python --version`
+14. git cloneでディレクトリをインストール
+15. `cd`コマンドでディレクトリに移動する
+16. poetryをインストールする`poetry install`
+17. poetryにライブラリーなどを追加したい場合'poetry add ライブラリー名'
