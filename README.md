@@ -9,9 +9,9 @@ Macでpyenv+poetryで環境構築したので共有します。
 7. `eval "$(pyenv init -)"`
 8. Pathの設定ファイルを再読み込み`source ~/.bash_profile`
 9. pyenvでインストールしたいバージョンを確認`pyenv install --list`
-10. 今回は3.8をインストールする`pyenv install 3.8.0`
-11. グローバルのバージョンを変更する`pyenv global 3.8.0`
-12. ローカルのバージョンを変更する`pyenv local 3.8.0`
+10. 今回は3.10をインストールする`pyenv install 3.10.0`
+11. グローバルのバージョンを変更する`pyenv global 3.10.0`
+12. ローカルのバージョンを変更する`pyenv local 3.10.0`
 13. バージョンの変更が適用されているか確認する`python --version`
 14. `git clone https://github.com/iamtatsuki05/pyenv-poetry.git`でディレクトリをインストール
 15. `cd`コマンドでディレクトリに移動する
