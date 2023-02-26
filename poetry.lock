@@ -2513,6 +2513,20 @@ test = ["fire", "types-requests", "rouge-score (>=0.0.4)", "torch-complex", "pyt
 text = ["nltk (>=3.6)", "tqdm (>=4.41.0)", "regex (>=2021.9.24)"]
 
 [[package]]
+name = "torchtext"
+version = "0.14.1"
+description = "Text utilities and datasets for PyTorch"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+numpy = "*"
+requests = "*"
+torch = "*"
+tqdm = "*"
+
+[[package]]
 name = "tornado"
 version = "6.2"
 description = "Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed."
@@ -2776,7 +2790,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "flake8 (<5)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "63161c8fe6023396a366eea1bb48d1589600f93c389bc4c2751416fb01647f90"
+content-hash = "99a84e45c8c98123269433b3602e6f1fc38e1ef65c1e044ea92127edeeebe7b1"
 
 [metadata.files]
 accelerate = []
@@ -2959,6 +2973,7 @@ toml = []
 tomli = []
 torch = []
 torchmetrics = []
+torchtext = []
 tornado = []
 tqdm = []
 traitlets = []
