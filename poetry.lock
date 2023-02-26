@@ -242,6 +242,14 @@ html5lib = ["html5lib"]
 lxml = ["lxml"]
 
 [[package]]
+name = "bitsandbytes"
+version = "0.37.0"
+description = "8-bit optimizers and matrix multiplication routines."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "black"
 version = "21.12b0"
 description = "The uncompromising code formatter."
@@ -2790,7 +2798,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "flake8 (<5)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "99a84e45c8c98123269433b3602e6f1fc38e1ef65c1e044ea92127edeeebe7b1"
+content-hash = "14318ef72a39ef794aec5dea4d94c596f6dac5140a6e1e221914bf7af687c284"
 
 [metadata.files]
 accelerate = []
@@ -2812,6 +2820,7 @@ autopep8 = []
 babel = []
 backcall = []
 beautifulsoup4 = []
+bitsandbytes = []
 black = []
 bleach = []
 blis = []
