@@ -1,4 +1,29 @@
 [[package]]
+name = "accelerate"
+version = "0.16.0"
+description = "Accelerate"
+category = "main"
+optional = false
+python-versions = ">=3.7.0"
+
+[package.dependencies]
+numpy = ">=1.17"
+packaging = ">=20.0"
+psutil = "*"
+pyyaml = "*"
+torch = ">=1.4.0"
+
+[package.extras]
+dev = ["black (>=22.0,<23.0)", "isort (>=5.5.4)", "flake8 (>=3.8.3)", "hf-doc-builder (>=0.3.0)", "pytest", "pytest-xdist", "pytest-subtests", "parameterized", "datasets", "evaluate", "transformers", "scipy", "scikit-learn", "deepspeed (<0.7.0)", "tqdm", "rich"]
+quality = ["black (>=22.0,<23.0)", "isort (>=5.5.4)", "flake8 (>=3.8.3)", "hf-doc-builder (>=0.3.0)"]
+rich = ["rich"]
+sagemaker = ["sagemaker"]
+test_dev = ["datasets", "evaluate", "transformers", "scipy", "scikit-learn", "deepspeed (<0.7.0)", "tqdm"]
+test_prod = ["pytest", "pytest-xdist", "pytest-subtests", "parameterized"]
+test_trackers = ["wandb", "comet-ml", "tensorboard"]
+testing = ["pytest", "pytest-xdist", "pytest-subtests", "parameterized", "datasets", "evaluate", "transformers", "scipy", "scikit-learn", "deepspeed (<0.7.0)", "tqdm"]
+
+[[package]]
 name = "aiofiles"
 version = "22.1.0"
 description = "File support for asyncio."
@@ -2677,9 +2702,10 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "flake8 (<5)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "86c57871eda35626f6ec43b6a98d718e155a2e9f5007936c3ef6df5a7d22252e"
+content-hash = "9fcfc11929e7a7d0b7bb09c2ee3f5f94b09e05db09261f61db2671e77b57554d"
 
 [metadata.files]
+accelerate = []
 aiofiles = []
 aiohttp = []
 aiosignal = []

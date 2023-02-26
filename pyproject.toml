@@ -29,6 +29,7 @@ mojimoji = "^0.0.12"
 joblib = "^1.2.0"
 polars = "^0.16.9"
 evaluate = "^0.4.0"
+accelerate = "^0.16.0"
 
 
 [tool.poetry.dev-dependencies]
